@@ -69,10 +69,24 @@ function FactCheckPage() {
                   <p>{item.explanation}</p>
                 </div>
                 <div className="sources">
-                  <h4>출처</h4>
+                  <h4>출처 (클릭하여 직접 확인)</h4>
                   <ul>
                     {item.sources.map((source, i) => (
-                      <li key={i}>{source}</li>
+                      <li key={i}>
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="source-link-item"
+                        >
+                          {source.name}
+                        </a>
+                        {source.description && (
+                          <span className="source-description">
+                            {' '}- {source.description}
+                          </span>
+                        )}
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -89,6 +103,23 @@ function FactCheckPage() {
             <div key={index} className="misconception-item">
               <h4 className="question">{item.question}</h4>
               <p className="answer">{item.answer}</p>
+              {item.sources && (
+                <div className="misconception-sources">
+                  <strong>참고:</strong>{' '}
+                  {item.sources.map((source, i) => (
+                    <span key={i}>
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {source.name}
+                      </a>
+                      {i < item.sources.length - 1 && ', '}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

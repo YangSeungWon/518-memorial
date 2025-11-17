@@ -770,6 +770,43 @@
   border-radius: 6px;
 }
 
+.source-link-item {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.source-link-item:hover {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+
+.source-link-item::after {
+  content: ' ↗';
+  font-size: 0.8em;
+}
+
+.source-description {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.misconception-sources {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.misconception-sources a {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.misconception-sources a:hover {
+  text-decoration: underline;
+}
+
 .misconceptions-section {
   margin-bottom: 3rem;
 }
