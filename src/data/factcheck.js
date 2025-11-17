@@ -174,6 +174,81 @@ export const factCheckData = [
     ],
     category: '명칭/성격 왜곡',
   },
+  {
+    id: 8,
+    claim: '5·18 유공자만 명단을 숨기고 있다',
+    verdict: '거짓',
+    explanation:
+      '5·18 유공자 명단 비공개는 개인정보보호법과 정보공개법에 따른 것입니다. 대법원은 2020년 "명단 비공개가 정당하다"고 확정 판결했습니다. 국가보훈처는 독립유공자와 일부 참전유공자를 제외한 모든 유공자(국가유공자, 고엽제 후유증 환자, 특수임무유공자 등)의 명단을 동일하게 비공개하고 있습니다.',
+    sources: [
+      {
+        name: '대법원 5·18 유공자 명단 비공개 정당 판결 - KBC',
+        url: 'https://www.ikbc.co.kr/사회/article/view/kbc202010100009',
+        description: '2020년 대법원 확정 판결',
+      },
+      {
+        name: '5·18 유공자 명단 비공개 판결 - 광주타임즈',
+        url: 'https://www.gjtnews.com/news/articleView.html?idxno=318702',
+        description: '대법원 심리불속행 기각, 원심 확정',
+      },
+      {
+        name: '독립유공자와 5·18유공자 명단 공개 차이 - 뉴시스',
+        url: 'https://www.newsis.com/view/NISX20190212_0000556276',
+        description: '다른 유공자 명단도 동일하게 비공개',
+      },
+    ],
+    category: '유공자 관련 왜곡',
+  },
+  {
+    id: 9,
+    claim: '5·18 유공자가 매달 420만원 연금을 받는다',
+    verdict: '거짓',
+    explanation:
+      '5·18 민주유공자는 다른 국가유공자와 달리 매월 지급되는 연금이 없습니다. 1990년 이후 1회성 보상금(평균 4,324만원)을 받았을 뿐입니다. 반면 다른 국가유공자는 월 최저 39만원~최대 684만원의 연금을 받습니다. 오히려 5·18 유공자 10명 중 4명은 월 소득 100만원 이하로 최저생계비 이하입니다.',
+    sources: [
+      {
+        name: '"매달 420만원 받는 유공자?" 5·18 소문의 진실 - SBS',
+        url: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1007195584',
+        description: '5·18 유공자 연금 없음, 평균 보상금 4,324만원',
+      },
+      {
+        name: '5·18 민주유공자 지원내용 - 국가보훈부',
+        url: 'https://www.mpva.go.kr/mpva/contents.do?key=126',
+        description: '국가보훈부 공식 지원내용 안내',
+      },
+      {
+        name: '"5·18유공자가 연금받는다고요?" 가짜뉴스 피해 - 뉴스1',
+        url: 'https://www.news1.kr/local/gwangju-jeonnam/4833573',
+        description: '유공자 40%가 월 소득 100만원 이하',
+      },
+    ],
+    category: '유공자 관련 왜곡',
+  },
+  {
+    id: 10,
+    claim: '5·18 유공자만 특별한 혜택을 받는다',
+    verdict: '거짓',
+    explanation:
+      '5·18 유공자의 혜택(취업 가산점 5~10%, 의료지원, 교육지원 등)은 동일한 수준의 희생을 입은 다른 국가유공자와 동일합니다. 가스비·전기세 면제, 대출 특혜, 항공기 50% 할인 등은 존재하지 않는 혜택입니다. 취업 가산점 수혜자 중 5·18 유공자는 전체의 1.2%에 불과합니다(2017년 기준 391명/32,751명).',
+    sources: [
+      {
+        name: '5·18 유공자·6·25 참전용사 혜택 비교 팩트체크 - 아주경제',
+        url: 'https://www.ajunews.com/view/20200519143155587',
+        description: '비교대상 오류, 동일 등급 국가유공자와 혜택 같음',
+      },
+      {
+        name: '5·18민주유공자 대상요건 - 국가보훈부',
+        url: 'https://www.mpva.go.kr/mpva/contents.do?key=124',
+        description: '국가보훈부 공식 대상요건',
+      },
+      {
+        name: '5·18유공자 귀족 예우설 - 518기념재단',
+        url: 'https://518.org/base/board/read?boardManagementNo=61&boardNo=23040',
+        description: '취업 가산점 수혜자 1.2%에 불과',
+      },
+    ],
+    category: '유공자 관련 왜곡',
+  },
 ];
 
 export const commonMisconceptions = [
