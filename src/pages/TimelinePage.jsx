@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { timelineData } from '../data/timeline';
 
 function TimelinePage() {
@@ -15,6 +16,13 @@ function TimelinePage() {
         1980년 5월 17일부터 27일까지, 광주에서 무슨 일이 있었는지 날짜별로
         상세하게 알아봅니다.
       </p>
+
+      <div className="detailed-timeline-link">
+        <Link to="/timeline/detailed" className="detailed-link-btn">
+          시분 단위 세부 타임라인 보기
+        </Link>
+        <p>각 사건의 정확한 시간(시:분)까지 기록된 상세 타임라인을 확인하세요.</p>
+      </div>
 
       <div className="timeline-container">
         {timelineData.map((event, index) => (
