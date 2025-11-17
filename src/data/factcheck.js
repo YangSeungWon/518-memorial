@@ -4,7 +4,7 @@ export const factCheckData = [
     claim: '광주 시민들이 교도소를 습격해서 간첩들을 해방시켰다',
     verdict: '거짓',
     explanation:
-      '광주지방법원은 전두환 회고록에 나온 교도소 습격설을 명백한 허위사실로 판결했습니다. 당시 광주교도소 습격 시도는 있었으나 실패했고, 간첩 해방은 사실이 아닙니다.',
+      '1995년 검찰 수사와 당시 광주교도소장 한도희의 증언에 따르면, 실제 "교도소 습격"은 없었습니다. 당시 교도소에는 3공수여단 1,392명이 중무장 상태로 주둔 중이었고, 5차례 충돌은 모두 교도소 정문이 아닌 국도와 고속도로에서 발생했습니다. 피해자 대부분은 광주 상황을 외부에 알리러 나가던 일반 시민이었으며, 12명이 사망하여 교도소 부근에 가매장되었습니다. 한도희 교도소장은 "습격이 있었다면 시체가 교도소 주변에 있어야지, 왜 도로에 있나"라고 증언했습니다.',
     sources: [
       {
         name: '전두환 회고록 허위사실 판결 - 연합뉴스',
@@ -12,9 +12,14 @@ export const factCheckData = [
         description: '광주지법, 교도소 습격설 허위사실 판결',
       },
       {
-        name: '5·18 민주화운동/왜곡 - 나무위키',
-        url: 'https://namu.wiki/w/5.18%20민주화운동/왜곡',
-        description: '교도소 습격설 팩트체크',
+        name: '광주교도소장 한도희 증언 - 연합뉴스 (1995)',
+        url: 'https://n.news.naver.com/mnews/article/001/0003988115',
+        description: '"습격 주장은 사실이 아니다" 당시 교도소장 직접 증언',
+      },
+      {
+        name: '1995년 검찰 수사 결과 - 뉴스타파',
+        url: 'https://newstapa.org/article/adGl-',
+        description: '5차례 충돌 모두 국도/고속도로에서 발생, 외곽 봉쇄작전 중 민간인 사망',
       },
     ],
     category: '무장폭동설',
@@ -24,17 +29,22 @@ export const factCheckData = [
     claim: '북한 특수군 600명이 광주에 침투했다',
     verdict: '거짓',
     explanation:
-      '지만원 씨가 주장한 "북한군 개입설"은 사실이 아닙니다. 그가 황장엽이라고 지목한 인물은 실제로 당시 시민군이었던 박남선 씨로 확인되었습니다. 법원에서도 명예훼손으로 유죄 판결을 받았습니다.',
+      '지만원 씨가 주장한 "북한군 개입설"은 사실이 아닙니다. 그가 북한군이라고 지목한 인물들은 실제로 당시 시민군이었던 광주 시민들로 확인되었습니다. 대법원은 2023년 지만원에게 명예훼손으로 징역 2년을 확정했습니다. 국군기무사령부도 1980년 당시 북한군 개입 증거를 찾지 못했다고 밝혔습니다.',
     sources: [
       {
-        name: '지만원 5·18 명예훼손 유죄 확정 - KBS',
-        url: 'https://news.kbs.co.kr/news/view.do?ncd=5198025',
-        description: '대법원 유죄 확정 판결',
+        name: '지만원 징역 2년 확정 - YTN',
+        url: 'https://www.ytn.co.kr/_ln/0103_202306151027168322',
+        description: '2023년 대법원, 5·18 비하 발언으로 징역 2년 확정',
       },
       {
-        name: '5·18 북한군 개입설 팩트체크 - 한겨레',
-        url: 'https://www.hani.co.kr/arti/society/society_general/893919.html',
-        description: '북한군 개입설 검증 결과',
+        name: '지만원 대법원 판결 - 한국경제',
+        url: 'https://www.hankyung.com/article/202306157444i',
+        description: '5·18 참여자를 북한군으로 지목한 혐의 유죄 확정',
+      },
+      {
+        name: '5·18 북한군 개입설 팩트체크 - SBS',
+        url: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1005765090',
+        description: '기무사 자료에도 북한 개입 증거 없음',
       },
     ],
     category: '북한군 개입설',
@@ -44,17 +54,22 @@ export const factCheckData = [
     claim: '5·18은 북한이 주도한 내란이었다',
     verdict: '거짓',
     explanation:
-      '5·18은 신군부의 비상계엄 확대와 민주화 탄압에 대한 시민들의 자발적 저항이었습니다. UNESCO가 세계기록유산으로 등재하며 민주화운동으로 공식 인정했습니다.',
+      '5·18은 신군부의 비상계엄 확대와 민주화 탄압에 대한 시민들의 자발적 저항이었습니다. 2011년 5월 25일 UNESCO가 5·18 기록물(문서 4,271권, 필름 2,017컷, 사진 1,733점)을 세계기록유산으로 등재하며 민주화운동으로 국제적 공인을 받았습니다. 1997년 대법원은 전두환, 노태우 등에게 내란죄를 확정했습니다.',
     sources: [
       {
-        name: 'UNESCO 세계기록유산 등재',
-        url: 'https://heritage.unesco.or.kr/1980년-인권기록유산-5·18-광주-민주화운동-기록물/',
-        description: '유네스코 공식 등재 페이지',
+        name: 'UNESCO 세계기록유산 등재 - 유네스코한국위원회',
+        url: 'https://unesco.or.kr/1980년-인권기록유산-5-18-광주민주화운동-기록물/',
+        description: '2011년 5월 25일 공식 등재, 세계 인권 역사적 가치 인정',
       },
       {
-        name: '대법원 12·12 및 5·18 판결문',
-        url: 'https://www.law.go.kr/판례/대법원%201997.%204.%2017.%20선고%2096도3376%20전원합의체%20판결',
-        description: '신군부 내란죄 유죄 판결',
+        name: '5·18 기록물 세계기록유산 - 518기념재단',
+        url: 'https://518.org/base/menu/baseView?menuLevel=2&menuNo=3',
+        description: '등재 과정 및 의의 공식 자료',
+      },
+      {
+        name: '대법원 1997.4.17 선고 96도3376 판결',
+        url: 'https://www.law.go.kr/판례/(1997.4.17,96도3376)',
+        description: '전두환·노태우 내란죄 유죄 확정 판결문',
       },
     ],
     category: '북한군 개입설',
@@ -64,17 +79,22 @@ export const factCheckData = [
     claim: '계엄군이 발포한 적이 없다',
     verdict: '거짓',
     explanation:
-      '2018년 국방부 조사에서 전일빌딩 10층의 총탄자국이 헬기사격에 의한 것임이 확인되었습니다. 또한 5월 21일 전남도청 앞 집단 발포는 수많은 증인과 기록으로 입증되어 있습니다.',
+      '2017년 국립과학수사연구원이 전일빌딩에서 245개의 탄흔을 발견했고, 이 중 193개가 헬기에서 발사된 것으로 확인되었습니다. 2018년 2월 국방부는 이를 공식 인정했습니다. 또한 5월 21일 전남도청 앞 집단 발포는 수많은 증인과 영상 기록으로 명백히 입증되어 있습니다.',
     sources: [
       {
-        name: '국방부 전일빌딩 헬기사격 확인 - YTN',
-        url: 'https://www.ytn.co.kr/_ln/0103_201801111003225851',
-        description: '2018년 국방부 공식 조사 결과',
+        name: '전일빌딩 탄흔 245개 발견 - 연합뉴스',
+        url: 'https://www.yna.co.kr/view/AKR20170117152100054',
+        description: '국과수, 193개가 헬기 사격에 의한 것으로 확인',
       },
       {
-        name: '5·18 헬기사격 조사 결과 - 국방부',
-        url: 'https://www.mnd.go.kr/user/newsInUserRecord.action?newsId=I_669&siteId=mnd&page=1&newsSeq=I_10016',
-        description: '국방부 공식 발표',
+        name: '국방부 헬기사격 공식 인정 - KBS',
+        url: 'https://news.kbs.co.kr/news/view.do?ncd=3603873',
+        description: '2018년 2월 국방부 공식 발표',
+      },
+      {
+        name: '5·18 헬기사격 조사위원회 보고서 - 한겨레',
+        url: 'https://www.hani.co.kr/arti/society/society_general/830617.html',
+        description: '헬기사격 진상규명 최종 보고',
       },
     ],
     category: '사실 왜곡',
@@ -84,17 +104,22 @@ export const factCheckData = [
     claim: '시민들이 먼저 총을 쐈다',
     verdict: '거짓',
     explanation:
-      '5월 21일 계엄군의 집단 발포가 먼저 있었고, 이후 분노한 시민들이 예비군 무기고와 경찰서에서 무기를 획득해 무장했습니다. 시민 무장은 계엄군의 발포에 대한 방어적 대응이었습니다.',
+      '1980년 5월 21일 오후 1시경, 전남도청 앞에서 계엄군의 집단 발포가 먼저 있었고 30명 이상이 사망했습니다. 시민들이 무기를 탈취하기 시작한 것은 이 발포 직후인 오후 2시 30분경부터입니다(육군본부 자료: 나주경찰서 삼포지서가 최초). 시민 무장은 계엄군의 발포에 대한 자위적 대응이었습니다.',
     sources: [
       {
-        name: '5·18 민주화운동 타임라인 - 우리역사넷',
+        name: '5·18 민주화운동 - 우리역사넷',
         url: 'https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i501000',
-        description: '국사편찬위원회 공식 기록',
+        description: '국사편찬위원회: 정오 집단발포 후 시민 무장 시작',
       },
       {
-        name: '5·18 기록관 - 국가기록원',
-        url: 'https://theme.archives.go.kr/next/518/paper4.do',
-        description: '정부 공식 기록물',
+        name: '5·18 집단발포 시간순 기록 - 518기념재단',
+        url: 'https://518.org/nsub.php?PID=010103',
+        description: '5월 21일 오후 1시 도청앞 집단발포 공식 기록',
+      },
+      {
+        name: '5·18 미국 비밀문서 집단발포 기록 - MBC',
+        url: 'https://imnews.imbc.com/replay/2024/nwdesk/article/6599504_36515.html',
+        description: '미국 비밀해제 문서에서도 계엄군 선발포 확인',
       },
     ],
     category: '사실 왜곡',
@@ -104,22 +129,22 @@ export const factCheckData = [
     claim: '사망자 수가 과장되었다',
     verdict: '부분적 사실/맥락 필요',
     explanation:
-      '공식 집계된 사망자는 165명이지만, 행방불명자 65명, 상이 후 사망자 376명을 포함하면 606명입니다. 오히려 암매장자와 미신고자를 고려하면 실제 피해는 더 클 것으로 추정됩니다.',
+      '2005년 5·18 민주유공자 유족회 등 4개 단체의 공식 발표에 따르면, 항쟁 당시 사망자 165명(총상 129명, 자상 9명, 타박상 17명), 행방불명자 65명, 상이 후 사망자 376명을 포함해 총 606명입니다. 사망자 평균연령은 27.5세이며, 최연소 사망자는 2세, 최고령은 72세입니다. 오히려 암매장자와 미신고자를 고려하면 실제 피해는 더 클 것으로 추정됩니다.',
     sources: [
       {
-        name: '5·18 사망자 606명 공식 발표 - 노컷뉴스',
+        name: '5·18 사망자 606명 공식 통계 - 노컷뉴스',
         url: 'https://www.nocutnews.co.kr/news/55243',
-        description: '5·18 단체 공식 통계 발표 (2005년)',
+        description: '2005년 5월 4개 단체 공동발표, 세부 통계 포함',
       },
       {
-        name: '5·18 희생자 기록 - 국가기록원',
-        url: 'https://theme.archives.go.kr/next/518/paper4.do',
-        description: '정부 공식 희생자 통계',
+        name: '5·18 사망자 중립적 DB 구축 - 노컷뉴스',
+        url: 'https://www.nocutnews.co.kr/news/1037381',
+        description: '최초 중립적·종합적 사망자 데이터베이스',
       },
       {
-        name: '민주화운동기념사업회 통계',
-        url: 'https://archives.kdemo.or.kr/isad/view/00881172',
-        description: '신원확인 사망자 명단',
+        name: '5·18 민주화운동 - 우리역사넷',
+        url: 'https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i501000&code=kc_age_50',
+        description: '국사편찬위원회 공식 희생자 통계',
       },
     ],
     category: '사실 왜곡',
@@ -129,22 +154,22 @@ export const factCheckData = [
     claim: '광주사태는 폭동이었다',
     verdict: '거짓',
     explanation:
-      '신군부가 붙인 "폭동" 딱지는 1988년 국회 청문회와 이후 법적 절차를 통해 공식적으로 부정되었습니다. 5·18은 민주화운동으로 재규정되었고, 관련 특별법이 제정되었습니다.',
+      '신군부가 붙인 "폭동" 명칭은 1988년 국회 청문회와 이후 법적 절차를 통해 공식적으로 부정되었습니다. 1995년 12월 21일 "5·18민주화운동 등에 관한 특별법"이 제정되어 민주화운동으로 법적 지위를 획득했고, 이에 따라 전두환·노태우 등 신군부가 사법 심판을 받았습니다.',
     sources: [
       {
-        name: '5·18 민주화운동 등에 관한 특별법',
+        name: '5·18민주화운동 등에 관한 특별법 - 국가법령정보센터',
         url: 'https://www.law.go.kr/법령/5·18민주화운동등에관한특별법',
-        description: '1995년 제정, 민주화운동으로 법적 규정',
+        description: '1995년 12월 21일 제정, 민주화운동으로 법적 규정',
       },
       {
-        name: 'UNESCO 세계기록유산 등재',
-        url: 'https://heritage.unesco.or.kr/1980년-인권기록유산-5·18-광주-민주화운동-기록물/',
-        description: '2011년 세계기록유산 등재',
+        name: '5·18특별법 - 한국민족문화대백과사전',
+        url: 'https://encykorea.aks.ac.kr/Article/E0078661',
+        description: '특별법 제정 배경과 의의',
       },
       {
-        name: '한국민족문화대백과사전 - 5·18',
-        url: 'https://encykorea.aks.ac.kr/Article/E0038496',
-        description: '학술적 정의와 역사적 평가',
+        name: '국가기록원 5·18민주화운동 등에 관한 특별법',
+        url: 'https://theme.archives.go.kr//next/chronology/archiveDetail.do?isPop=Y&flag=1&evntId=0000012999',
+        description: '법률 제5029호 원문 및 기록',
       },
     ],
     category: '명칭/성격 왜곡',
@@ -155,11 +180,17 @@ export const commonMisconceptions = [
   {
     question: '5·18 때 광주 시민들이 마구잡이로 총을 쐈나요?',
     answer:
-      '아닙니다. 시민들은 계엄군의 집단 발포(5월 21일) 이후에야 자위적 목적으로 무장했습니다. 시민군은 오히려 질서정연하게 활동했고, 무기 회수에도 협조했습니다. 계엄군 철수 후에도 약탈이나 범죄가 거의 없었던 것이 이를 증명합니다.',
+      '아닙니다. 시민들은 계엄군의 집단 발포(5월 21일 오후 1시경) 이후에야 자위적 목적으로 무장했습니다. 시민군은 오히려 질서정연하게 활동했고, 무기 회수에도 협조했습니다. 계엄군 철수 후에도 약탈이나 범죄가 거의 없었던 것이 이를 증명합니다.',
     sources: [
       {
-        name: '우리역사넷 - 5·18 기록',
+        name: '5·18 민주화운동 - 우리역사넷',
         url: 'https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i501000',
+        description: '국사편찬위원회 공식 기록',
+      },
+      {
+        name: '5·18 집단발포 기록 - 518기념재단',
+        url: 'https://518.org/nsub.php?PID=010103',
+        description: '시간순 기록',
       },
     ],
   },
@@ -169,19 +200,31 @@ export const commonMisconceptions = [
       '신군부가 광주를 집중 타겟으로 삼았기 때문입니다. 김대중이 전라도 출신이라는 이유로 호남 지역을 "불순세력의 본거지"로 규정했고, 다른 지역보다 훨씬 강경한 진압을 했습니다. 또한 광주의 저항이 강력했기 때문에 더 큰 희생이 발생했습니다.',
     sources: [
       {
-        name: '한국민족문화대백과사전',
+        name: '5·18 광주 민주화 운동 - 한국민족문화대백과사전',
         url: 'https://encykorea.aks.ac.kr/Article/E0038496',
+        description: '한국학중앙연구원 공식 기록',
+      },
+      {
+        name: '12·12 및 5·18 사건 사법처리 - 민주화운동기념사업회',
+        url: 'https://archives.kdemo.or.kr/contents/view/116',
+        description: '신군부 내란 관련 사법처리 기록',
       },
     ],
   },
   {
     question: '군인들도 많이 죽었나요?',
     answer:
-      '계엄사령부 발표에 따르면 군인 22명, 경찰 4명이 사망했습니다. 하지만 민간인 사망자(공식 165명, 추정 그 이상)에 비하면 현저히 적습니다. 군의 피해 대부분은 시민군과의 교전보다는 작전 중 사고로 발생했습니다.',
+      '계엄사령부 발표에 따르면 군인 23명, 경찰 4명이 사망했습니다. 하지만 민간인 사망자(공식 165명 + 행방불명 65명 + 상이후사망 376명 = 606명)에 비하면 현저히 적습니다. 군의 피해 대부분은 시민군과의 교전보다는 작전 중 사고로 발생했습니다.',
     sources: [
       {
-        name: '국가기록원 5·18 기록',
-        url: 'https://theme.archives.go.kr/next/518/paper4.do',
+        name: '5·18 민주화운동 - 우리역사넷',
+        url: 'https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i501000',
+        description: '국사편찬위원회 공식 희생자 통계',
+      },
+      {
+        name: '5·18 사망자 606명 통계 - 노컷뉴스',
+        url: 'https://www.nocutnews.co.kr/news/55243',
+        description: '2005년 4개 단체 공동발표',
       },
     ],
   },
