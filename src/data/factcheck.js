@@ -249,6 +249,76 @@ export const factCheckData = [
     ],
     category: '유공자 관련 왜곡',
   },
+  {
+    id: 11,
+    claim: '김대중이 5·18을 배후에서 조종했다',
+    verdict: '거짓',
+    explanation:
+      '김대중은 5·18 하루 전인 5월 17일 밤에 이미 체포되어 감금 상태였습니다. 물리적으로 배후조종이 불가능했습니다. 신군부는 "학생·노조소요관련 배후조종" 혐의로 기소했으나, 이는 조작된 혐의였으며 2004년 재심에서 최종 무죄 판결을 받았습니다. 김대중은 감금 상태에서 50여 일이 지난 후에야 광주 상황을 알게 되었습니다.',
+    sources: [
+      {
+        name: '5·18 전날 체포 "사형수 김대중 옥중 영상" 최초 공개 - MBC',
+        url: 'https://imnews.imbc.com/replay/2020/nwdesk/article/5778057_32524.html',
+        description: '5월 17일 체포, 50여 일 후 광주 상황 인지',
+      },
+      {
+        name: '김대중 내란음모 조작 사건 - 위키백과',
+        url: 'https://ko.wikipedia.org/wiki/김대중_내란음모사건',
+        description: '2004년 재심 무죄 판결',
+      },
+      {
+        name: '5·18 그날의 기록과 진실 - 518기념재단',
+        url: 'https://518.org/base/contents/view?contentsNo=1&menuLevel=3&menuNo=1',
+        description: '5월 17일 김대중 체포 기록',
+      },
+    ],
+    category: '배후조종설',
+  },
+  {
+    id: 12,
+    claim: '5·18 유공자가 4,600명에서 9,700명으로 급증했다',
+    verdict: '거짓',
+    explanation:
+      '카카오톡으로 퍼진 완전한 가짜뉴스입니다. 2018년 국가보훈처 공식 등록 기준 5·18 민주유공자는 4,415명입니다. "2억을 주면 유공자 가정에 입양되어 유공자가 될 수 있다"는 주장도 완전한 허위입니다. 입양으로 유공자 지위를 취득하는 것은 법적으로 불가능합니다.',
+    sources: [
+      {
+        name: '5·18 유공자 9,700명 급증설 팩트체크 - 나무위키',
+        url: 'https://namu.wiki/w/5.18 민주화운동/왜곡/유공자 관련 왜곡',
+        description: '2018년 국가보훈처 기준 4,415명',
+      },
+      {
+        name: '5·18 민주유공자 대상요건 - 국가보훈부',
+        url: 'https://www.mpva.go.kr/mpva/contents.do?key=124',
+        description: '유공자 등록 요건 공식 안내',
+      },
+    ],
+    category: '유공자 관련 왜곡',
+  },
+  {
+    id: 13,
+    claim: '전두환 회고록의 5·18 관련 내용은 사실이다',
+    verdict: '거짓',
+    explanation:
+      '광주지법과 광주고법은 전두환 회고록의 51곳을 허위사실로 판단하고 출판·배포 금지 및 손해배상(7천만원)을 명령했습니다. 법원이 허위로 인정한 내용: 헬기사격 부인, 5·18을 "폭동"으로 규정, 광주교도소 북한 간첩 개입 주장, 계엄군 발포 명령 부인 등. 재판부는 "고증을 거친 객관적 자료에 기초하지 않은 것은 역사의 왜곡"이라고 판시했습니다.',
+    sources: [
+      {
+        name: '전두환 회고록 출판·배포 금지 판결 - 법률신문',
+        url: 'https://www.lawtimes.co.kr/news/120127',
+        description: '2017년 광주지법 가처분 인용',
+      },
+      {
+        name: '전두환 회고록 5·18 왜곡 판단 손해배상 판결 - 노컷뉴스',
+        url: 'https://www.nocutnews.co.kr/news/5817247',
+        description: '광주고법 항소심 7천만원 배상 판결',
+      },
+      {
+        name: '전두환 회고록 담긴 33가지 허위 내용 - 518유족회',
+        url: 'http://518kdfamily.org/article/34342',
+        description: '법원 인정 허위사실 상세 목록',
+      },
+    ],
+    category: '사실 왜곡',
+  },
 ];
 
 export const commonMisconceptions = [
