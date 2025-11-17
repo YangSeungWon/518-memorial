@@ -8,6 +8,7 @@ function Layout({ children }) {
     { path: '/timeline', label: '타임라인', icon: '📅' },
     { path: '/factcheck', label: '팩트체크', icon: '✓' },
     { path: '/statistics', label: '통계', icon: '📊' },
+    { path: '/places', label: '기념공간', icon: '📍' },
     { path: '/sources', label: '출처', icon: '📚' },
   ];
 

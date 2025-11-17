@@ -5,6 +5,7 @@ import TimelinePage from './pages/TimelinePage';
 import FactCheckPage from './pages/FactCheckPage';
 import StatisticsPage from './pages/StatisticsPage';
 import SourcesPage from './pages/SourcesPage';
+import PlacesPage from './pages/PlacesPage';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/factcheck" element={<FactCheckPage />} />
           <Route path="/statistics" element={<StatisticsPage />} />
+          <Route path="/places" element={<PlacesPage />} />
           <Route path="/sources" element={<SourcesPage />} />
         </Routes>
       </Layout>

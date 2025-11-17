@@ -1433,3 +1433,229 @@
     gap: 0.5rem;
   }
 }
+
+/* Places Page */
+.places-page {
+  padding: 2rem 0;
+}
+
+.category-filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 15px rgba(189, 37, 64, 0.3);
+}
+
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.place-card {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.place-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.place-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.place-category {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.site-number {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.place-name {
+  font-family: 'Noto Serif KR', serif;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.place-info {
+  flex: 1;
+}
+
+.info-item {
+  margin-bottom: 0.8rem;
+}
+
+.info-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.info-value {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.info-item.description .info-value {
+  font-size: 0.95rem;
+}
+
+.tel-link,
+.website-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.tel-link:hover,
+.website-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.website-link::after {
+  content: ' ↗';
+  font-size: 0.8em;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.feature-tag {
+  background: #f0f0f0;
+  color: var(--text-color);
+  padding: 0.3rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.place-actions {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.map-btn {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.map-btn:hover {
+  background: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(189, 37, 64, 0.3);
+}
+
+.places-note {
+  background: #f9f9f9;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--accent-color);
+}
+
+.places-note h3 {
+  font-family: 'Noto Serif KR', serif;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.places-note ul {
+  list-style: none;
+  padding: 0;
+}
+
+.places-note li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.places-note li::before {
+  content: '•';
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.places-note a {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.places-note a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .places-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-filter {
+    justify-content: center;
+  }
+}
