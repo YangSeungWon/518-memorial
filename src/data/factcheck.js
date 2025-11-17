@@ -282,14 +282,19 @@ export const factCheckData = [
       '카카오톡으로 퍼진 완전한 가짜뉴스입니다. 2018년 국가보훈처 공식 등록 기준 5·18 민주유공자는 4,415명입니다. "2억을 주면 유공자 가정에 입양되어 유공자가 될 수 있다"는 주장도 완전한 허위입니다. 입양으로 유공자 지위를 취득하는 것은 법적으로 불가능합니다.',
     sources: [
       {
-        name: '5·18 유공자 9,700명 급증설 팩트체크 - 나무위키',
-        url: 'https://namu.wiki/w/5.18 민주화운동/왜곡/유공자 관련 왜곡',
-        description: '2018년 국가보훈처 기준 4,415명',
+        name: '"매달 420만원 받는 유공자?" 5·18 소문의 진실 - SBS',
+        url: 'https://news.sbs.co.kr/news/endPage.do?news_id=N1007195584',
+        description: '2018년 국가보훈처 기준 4,415명 확인',
       },
       {
         name: '5·18 민주유공자 대상요건 - 국가보훈부',
         url: 'https://www.mpva.go.kr/mpva/contents.do?key=124',
         description: '유공자 등록 요건 공식 안내',
+      },
+      {
+        name: '"5·18유공자가 연금받는다고요?" 가짜뉴스 피해 - 뉴스1',
+        url: 'https://www.news1.kr/local/gwangju-jeonnam/4833573',
+        description: '카카오톡 허위정보 실태 보도',
       },
     ],
     category: '유공자 관련 왜곡',
